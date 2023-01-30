@@ -1,0 +1,13 @@
+.Exp{
+    /* background-color: antiquewhite; */
+    /* color: black; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* padding-top: 10%; */
+
+    /* gap: 1em; */
+    flex-direction: column;
+    height: 100%;
+    flex-shrink: 0;
+}
