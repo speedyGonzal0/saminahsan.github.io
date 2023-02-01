@@ -1,0 +1,47 @@
+.skills{
+    /* background-color: antiquewhite; */
+    /* color: black; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding-top: 10%;
+
+    /* gap: 1em; */
+    flex-direction: column;
+    height: calc(100% - 76px);
+    width: 100%;
+    flex-shrink: 0;
+    /* flex-wrap:nowrap; */
+}
+
+.skills h1{
+    padding-bottom: 5vh;
+}
+
+.badges{
+    /* background-color: antiquewhite; */
+    width: 60vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.badges img{
+    cursor: pointer;
+    transition: 0.4s all ease;
+}
+
+.badges img:hover{
+    transform:scale(1.05);
+    transition: 0.4s all ease;
+}
+
+
+@media screen and (max-width: 500px) {
+    .skills{
+        height: auto;
+    }
+}

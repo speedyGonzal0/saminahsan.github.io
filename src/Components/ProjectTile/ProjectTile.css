@@ -1,0 +1,88 @@
+.pTile{
+    display: flex;
+    /* background-color: antiquewhite; */
+    width: 60vw;
+    height: auto;
+
+    border-radius: 2em;
+    /* border: 0.1em solid #333333; */
+    transition: 0.4s all ease;
+    flex-shrink: 0;
+    gap: 2vw;
+    justify-content: space-evenly;
+    margin-bottom: 8vh;
+    /* transition: 0.4s all ease;     */
+}
+
+.pTile:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.pTile:hover .pTileLeft{
+    /* border-color: white; */
+    transition: 0.4s all ease;
+}
+
+.pTile:hover .pTileRight img{
+    /* box-shadow: 5px 10px #333333; */
+    /* bottom: 1em; */
+    border-radius: 1em;
+    
+    filter: none;
+    transition: 0.4s all ease;
+    
+}
+
+
+.pTileLeft{
+    display: flex;
+    /* background-color: aqua; */
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    padding: 2%;
+    flex-shrink: 0;
+    /* gap: 1em; */
+    border: 0.1em solid #333333;
+    border-radius: 1em;
+    transition: 0.4s all ease;
+}
+
+.pTileRight{
+    display: flex;
+    /* background-color: aquamarine; */
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.pTileRight img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: grayscale(100%);
+    transition: 0.4s all ease;
+    border: 0.1em solid #333333;
+    /* border-radius: 1em; */
+    /* box-shadow: inset 0 0 50% black;  */
+    /* filter: sepia(100%) saturate(300%) brightness(70%) hue-rotate(180deg); */
+    /* margin-right: 3%; */
+}
+
+
+
+@media screen and (max-width: 1280px) {
+    .pTileRight{
+        display: none;
+    }
+
+    .pTileLeft{
+        align-items: center;
+        text-align: center;
+        padding: 5%;
+        width: 50vw;
+    }
+    
+}

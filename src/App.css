@@ -7,13 +7,14 @@
 }
 
 .App {
-  text-align: center;
+  /* text-align: center; */
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   /* width: 100vw; */
   /* background-color: antiquewhite; */
+  overflow: auto;
 }
 
 
@@ -26,4 +27,28 @@
     border-radius: 1em;
     border: solid #333333 0.2em;
     background-color: transparent;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.5vw;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: none;
+  height: calc(100vh - 76px);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 5em;
+  background: #333333;
+  transition: 0.4s all ease;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  transition: 0.4s all ease;
+  background: #555;
 }

@@ -1,4 +1,4 @@
-.about{
+.projects{
     /* background-color: antiquewhite; */
     /* color: black; */
     display: flex;
@@ -8,23 +8,12 @@
 
     /* gap: 1em; */
     flex-direction: column;
-    height: calc(100% - 76px);
+    height: auto;
     width: 100%;
-    text-align: center;
     flex-shrink: 0;
+    /* overflow-y: visible; */
 }
 
-.about button{
-    top: 5vh;
+.projects h1{
+        padding-bottom: 5vh;
 }
-
-@media screen and (max-width: 1280px) {
-    .about{
-        justify-content: center;
-        padding-bottom: 20%;
-        width: 90%;
-    }
-
-}
-
-
