@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.f2f72e63.css",
+    "main.css": "/static/css/main.5bd74ed9.css",
     "main.js": "/static/js/main.d0ca9e01.js",
     "static/media/gamevaultSS.png": "/static/media/gamevaultSS.83af229ffca504fa72d4.png",
     "static/media/vaxtrakSS.png": "/static/media/vaxtrakSS.aa5f306608ad7f1ca138.png",
     "static/media/overseerSS.png": "/static/media/overseerSS.abaff6573520bf132bf1.png",
     "index.html": "/index.html",
-    "main.f2f72e63.css.map": "/static/css/main.f2f72e63.css.map",
+    "main.5bd74ed9.css.map": "/static/css/main.5bd74ed9.css.map",
     "main.d0ca9e01.js.map": "/static/js/main.d0ca9e01.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2f72e63.css",
+    "static/css/main.5bd74ed9.css",
     "static/js/main.d0ca9e01.js"
   ]
 }
