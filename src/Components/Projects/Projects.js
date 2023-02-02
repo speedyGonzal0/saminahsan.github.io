@@ -10,7 +10,7 @@ import vaxtrak from '../../Images/vaxtrakSS.png'
 function Projects() {
   return (
     <div className='projects' id='projects'>
-        <Text h1 css={{ fontFamily: "Space Grotesk", textGradient: "45deg, $blue600 -20%, $pink600 50%"}}> Featured Projects </Text>
+        <Text h1 css={{ fontFamily: "Space Grotesk", textAlign: "center", textGradient: "45deg, $blue600 -20%, $pink600 50%"}}> Featured Projects </Text>
         <ProjectTile title="Overseer"
          desc="An order management project for large-scale production businesses. Finalist of Therap Javafest 2022."
          tech="MySQL · Spring Boot · React.js · NextUI · CSS"
