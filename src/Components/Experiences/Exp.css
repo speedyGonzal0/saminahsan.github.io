@@ -16,5 +16,6 @@
 @media screen and (max-width: 1280px) {
     .Exp{
         width: 90%;
+        height: auto;
     }
 }
