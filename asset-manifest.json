@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/saminahsan.github.io/static/css/main.f2f72e63.css",
-    "main.js": "/saminahsan.github.io/static/js/main.7d3cbe9c.js",
-    "static/media/gamevaultSS.png": "/saminahsan.github.io/static/media/gamevaultSS.83af229ffca504fa72d4.png",
-    "static/media/vaxtrakSS.png": "/saminahsan.github.io/static/media/vaxtrakSS.aa5f306608ad7f1ca138.png",
-    "static/media/overseerSS.png": "/saminahsan.github.io/static/media/overseerSS.abaff6573520bf132bf1.png",
-    "index.html": "/saminahsan.github.io/index.html",
-    "main.f2f72e63.css.map": "/saminahsan.github.io/static/css/main.f2f72e63.css.map",
-    "main.7d3cbe9c.js.map": "/saminahsan.github.io/static/js/main.7d3cbe9c.js.map"
+    "main.css": "/static/css/main.f2f72e63.css",
+    "main.js": "/static/js/main.df3aee70.js",
+    "static/media/gamevaultSS.png": "/static/media/gamevaultSS.83af229ffca504fa72d4.png",
+    "static/media/vaxtrakSS.png": "/static/media/vaxtrakSS.aa5f306608ad7f1ca138.png",
+    "static/media/overseerSS.png": "/static/media/overseerSS.abaff6573520bf132bf1.png",
+    "index.html": "/index.html",
+    "main.f2f72e63.css.map": "/static/css/main.f2f72e63.css.map",
+    "main.df3aee70.js.map": "/static/js/main.df3aee70.js.map"
   },
   "entrypoints": [
     "static/css/main.f2f72e63.css",
-    "static/js/main.7d3cbe9c.js"
+    "static/js/main.df3aee70.js"
   ]
 }
