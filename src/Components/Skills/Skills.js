@@ -5,7 +5,7 @@ import { Button, Text, Link, Collapse } from '@nextui-org/react';
 function Skills() {
   return (
     <div className='skills' id='skills'>
-        <Text h1 css={{fontFamily: "Space Grotesk", textAlign: "center", textGradient: "45deg, $blue600 -20%, $pink600 50%"}}>
+        <Text h1 css={{fontFamily: "Space Grotesk", textAlign: "center", textGradient: "45deg, $blue600 -20%, $pink600 80%"}}>
             Technologies I've Worked With
         </Text>
 

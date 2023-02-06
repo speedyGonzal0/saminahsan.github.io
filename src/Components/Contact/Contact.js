@@ -8,7 +8,7 @@ import {HiOutlineMail} from 'react-icons/hi'
 function Contact() {
   return (
     <div className='contact' id='contact'>
-        <Text h1 css={{fontFamily: "Space Grotesk", textGradient: "45deg, $blue600 -20%, $pink600 50%" }}>Get In Touch</Text>
+        <Text h1 css={{fontFamily: "Space Grotesk", textGradient: "45deg, $blue600 -20%, $pink600 80%"}}>Get In Touch</Text>
         <div className="buttonContainer">
             <Link href='mailto: turzo68@gmail.com'>
                 <Button icon={<HiOutlineMail size="1.5em"/>} auto light css={{fontFamily: "Rubik"}}>turzo68@gmail.com</Button>

@@ -6,7 +6,7 @@ import { Button, Text, Link, Collapse } from '@nextui-org/react';
 function Exp() {
   return (
     <div className='Exp' id='exp'>
-        <Text h1 css={{ fontFamily: "Space Grotesk", textGradient: "45deg, $blue600 -20%, $pink600 50%"}}> Experience</Text>
+        <Text h1 css={{ fontFamily: "Space Grotesk", textGradient: "45deg, $blue600 -20%, $pink600 80%"}}> Experience</Text>
         <Collapse.Group splitted>
           <Collapse css={{ fontFamily: "Space Grotesk" }} title="UX Engineer Intern" subtitle="Penguin.com.bd | Internship | Mar 2021 - May 2021">
             <Text css={{ fontFamily: "Rubik"}}>
