@@ -81,7 +81,7 @@ function App() {
   return (
     <NextUIProvider theme={isDark ? darkTheme : lightTheme}>
       <div className="App">
-        <Navbar variant="sticky" isBordered maxWidth="fluid">
+        <Navbar variant="sticky" isBordered maxWidth="fluid" css={{zIndex: 1000}}>
           <Navbar.Brand>
             <Navbar.Toggle aria-label="toggle navigation" showIn="sm" />
           </Navbar.Brand>
