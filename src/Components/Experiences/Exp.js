@@ -8,6 +8,32 @@ function Exp() {
     <div className='Exp' id='exp'>
         <Text h1 css={{ fontFamily: "Space Grotesk", textGradient: "45deg, $blue600 -20%, $pink600 80%"}}> Experience</Text>
         <Collapse.Group splitted>
+
+          <Collapse css={{ fontFamily: "Space Grotesk" }} title="Software Engineer Intern" subtitle="Square Health Ltd. | Internship | Feb 2023 - May 2023">
+            <Text css={{ fontFamily: "Rubik"}}>
+
+              
+            - Analyzing system requirement specifications and designing an efficient database. <br/>
+            - Implementing a secure and optimized front end with Angular best practices. <br/>
+            - Ensuring consistent design and responsive UI with PrimeNG and Bootstrap. <br/><br/>
+
+            <Text b css={{ fontFamily: "Rubik"}}>Skills: Angular · TypeScript · Bootstrap · SCSS · PrimeNG · Teamwork · Database Design · Git</Text>
+            
+            </Text>
+          </Collapse>
+
+      
+          <Collapse css={{ fontFamily: "Space Grotesk" }} title="Student Tutor" subtitle="BRAC University | Part-time | Feb 2022 - Dec 2022">
+            <Text css={{ fontFamily: "Rubik"}}>
+            - Checked assignment scripts. <br/>
+            - Provided consultation to around 100 students every semester.<br/>
+            - Maintained grade sheets.<br/>
+            - Assisted the faculty in course management.<br/><br/>
+
+            <Text b css={{ fontFamily: "Rubik"}}>Skills: Mathematics · Communication · Management · Research · Teaching · Python</Text>
+            </Text>
+          </Collapse>
+
           <Collapse css={{ fontFamily: "Space Grotesk" }} title="UX Engineer Intern" subtitle="Penguin.com.bd | Internship | Mar 2021 - May 2021">
             <Text css={{ fontFamily: "Rubik"}}>
             - Designed consumer-facing app UX. <br/>
@@ -18,16 +44,7 @@ function Exp() {
             
             </Text>
           </Collapse>
-          <Collapse css={{ fontFamily: "Space Grotesk" }} title="Student Tutor" subtitle="BRAC University | Part-time | Feb 2022 - Dec 2022">
-            <Text css={{ fontFamily: "Rubik"}}>
-            - Checked assignment scripts. <br/>
-            - Provided consultation to around 100 students every semester.<br/>
-            - Maintained grade sheets.<br/>
-            - Assisted the faculty in course management.<br/><br/>
-
-            <Text b css={{ fontFamily: "Rubik"}}>Skills: Web Development · Git · Node.js · JavaScript · Figma · React.js</Text>
-            </Text>
-          </Collapse>
+          
           <Collapse css={{ fontFamily: "Space Grotesk" }} title="Graphic Designer" subtitle="Part-time | 2016 - 2020">
             <Text css={{ fontFamily: "Rubik"}}>
             - Freelance rebranding contract for ATC, a construction company.<br/>
