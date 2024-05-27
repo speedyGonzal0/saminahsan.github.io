@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/saminahsan.github.io/static/css/main.5bd74ed9.css",
-    "main.js": "/saminahsan.github.io/static/js/main.be332d84.js",
+    "main.css": "/saminahsan.github.io/static/css/main.7629d9b6.css",
+    "main.js": "/saminahsan.github.io/static/js/main.f5167c4a.js",
     "static/media/gamevaultSS.png": "/saminahsan.github.io/static/media/gamevaultSS.83af229ffca504fa72d4.png",
     "static/media/vaxtrakSS.png": "/saminahsan.github.io/static/media/vaxtrakSS.aa5f306608ad7f1ca138.png",
     "static/media/overseerSS.png": "/saminahsan.github.io/static/media/overseerSS.abaff6573520bf132bf1.png",
     "index.html": "/saminahsan.github.io/index.html",
-    "main.5bd74ed9.css.map": "/saminahsan.github.io/static/css/main.5bd74ed9.css.map",
-    "main.be332d84.js.map": "/saminahsan.github.io/static/js/main.be332d84.js.map"
+    "main.7629d9b6.css.map": "/saminahsan.github.io/static/css/main.7629d9b6.css.map",
+    "main.f5167c4a.js.map": "/saminahsan.github.io/static/js/main.f5167c4a.js.map"
   },
   "entrypoints": [
-    "static/css/main.5bd74ed9.css",
-    "static/js/main.be332d84.js"
+    "static/css/main.7629d9b6.css",
+    "static/js/main.f5167c4a.js"
   ]
 }
