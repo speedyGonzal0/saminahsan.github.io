@@ -17,6 +17,23 @@ function Exp() {
       <Collapse.Group splitted>
         <Collapse
           css={{ fontFamily: "Space Grotesk" }}
+          title="Java Developer"
+          subtitle="Orbund Bangladesh Ltd. | Full-time | Jan 2024 - Present"
+          expanded
+        >
+          <Text css={{ fontFamily: "Rubik" }}>
+            - Developing the redesigned teacher and admin portal of a student information system using JSP<br />
+            - Analyzing JIRA tickets to implement bug fixes and new features with Java and JSP <br />
+            - Adhering to agile methodologies to track progress and ensure project alignment <br />
+            <br />
+            <Text b css={{ fontFamily: "Rubik" }}>
+              Skills: Java · JSP · JavaScript · Servlet · Git
+            </Text>
+          </Text>
+        </Collapse>
+
+        <Collapse
+          css={{ fontFamily: "Space Grotesk" }}
           title="Lecturer"
           subtitle="BRAC University | Contractual | Sep 2023 - Dec 2023"
         >

@@ -85,9 +85,16 @@ function App() {
           <Navbar.Brand>
             <Navbar.Toggle aria-label="toggle navigation" showIn="sm" />
           </Navbar.Brand>
-          <Navbar.Content hideIn="sm" variant="highlight" activeColor="neutral" css={{fontFamily: "Rubik" }}>
+          <Navbar.Content  hideIn="sm" variant="highlight" activeColor="secondary" css={{fontFamily: "Rubik" }}>
             {collapseItems.map((item, index) => (
-              <Navbar.Link key={index} href={item.link}> {item.name} </Navbar.Link>
+              <Navbar.Link
+                key={index}
+                href={item.link}
+                isActive={item.status}
+                onClick={() => activeHandler(index)}
+              >
+                {item.name}
+              </Navbar.Link>
             ))}
           </Navbar.Content>
           <Navbar.Content>
